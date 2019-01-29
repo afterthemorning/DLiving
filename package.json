@@ -11,14 +11,17 @@
   "devDependencies": {
     "@types/react": "^16.7.22",
     "@types/react-dom": "^16.0.11",
+    "awesome-typescript-loader": "^5.2.1",
     "typescript": "^3.2.4",
+    "uglifyjs-webpack-plugin": "^2.1.1",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1"
   },
   "scripts": {
-    "test": "dliving-test",
-    "build": "tsc && webpack app/app.js -o dist/app.bundle.js --mode=production",
-    "build:dev": "tsc && webpack app/app.js -o dist/app.bundle.js --mode=development",
+    "test": "echo \"Error: no tests installed\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode=production",
+    "build:dev": "webpack --config webpack.config.js --mode=development",
+    "watch": "webpack --config webpack.config.js --mode=development --watch",
     "start": "node server.js"
   },
   "repository": {
