@@ -1,2 +1,2 @@
-# dliving
+# DLiving
 Digital Living
