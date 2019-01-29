@@ -3,7 +3,7 @@
  "short_name": "DLiving",
  "description": "My Digital Living App",
  "lang": "zh-CN",
- "start_url": "/",
+ "start_url": "/app",
  "display": "standalone",
  "icons": [
   {
